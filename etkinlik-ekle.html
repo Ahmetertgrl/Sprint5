@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Etkinlik Ekle</title>
+</head>
+<body>
+
+  <header>
+    <h1>Etkinlik Ekle</h1>
+    <nav>
+      <a href="etkinlikler.html">Ana Sayfa</a>
+      <a href="etkinlikler.html">Etkinlikler</a>
+      <a href="etkinlik-detay.html">Detay</a>
+      <a href="etkinlik-ekle.html">Ekle</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <p>
+        <label for="etkinlik-adi">Etkinlik Adı</label><br>
+        <input type="text" id="etkinlik-adi" name="etkinlik_adi">
+      </p>
+
+      <p>
+        <label for="kategori">Kategori</label><br>
+        <select id="kategori" name="kategori">
+          <option value="seminer">Seminer</option>
+          <option value="atolye">Atölye</option>
+          <option value="konferans">Konferans</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="tarih-saat">Tarih / Saat</label><br>
+        <input type="datetime-local" id="tarih-saat" name="tarih_saat">
+      </p>
+
+      <p>
+        <label for="aciklama">Açıklama</label><br>
+        <textarea id="aciklama" name="aciklama" rows="4" cols="35"></textarea>
+      </p>
+
+      <p>
+        <button type="submit">Kaydet</button>
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    <hr>
+    <p>Ahmet Turhan Ertuğrul · 2416501029</p>
+  </footer>
+
+</body>
+</html>
