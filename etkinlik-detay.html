@@ -3,48 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kariyer Günleri 2026 - Detay</title>
+  <title>Etkinlik Detayı</title>
   <link rel="stylesheet" href="css/2416501029.css">
+  <!-- Sadece bu sayfaya özel JS modülü -->
+  <script type="module" src="js/event-detail.js"></script>
 </head>
 <body>
 
   <header>
-    <h1>Kariyer Günleri 2026</h1>
+    <!-- Başlık JS ile dolacak -->
+    <h1>Etkinlik Detayı</h1>
     <nav>
       <a href="index.html">Ana Sayfa</a>
       <a href="etkinlikler.html">Etkinlikler</a>
       <a href="etkinlik-ekle.html">Ekle</a>
-      <a href="etkinlik-guncelle.html">Güncelle</a>
     </nav>
   </header>
 
   <main>
-    <section class="detay-grid">
-      <figure>
-        <!-- Gönderdiğin afiş resmini buraya bağlıyoruz -->
-        <img src="afis.jpeg" alt="Music Event Afişi" style="max-width: 100%; height: auto; border-radius: 8px;">
-        <figcaption>Şekil 1: Müzik Etkinliği Afişi</figcaption>
-      </figure>
-
-      <div>
-        <dl>
-          <dt>Tarih</dt>
-          <dd><time datetime="2026-10-12T14:00">12 Ekim, 14:00</time></dd>
-
-          <dt>Yer</dt>
-          <dd>A Blok Salon</dd>
-
-          <dt>Kategori</dt>
-          <dd>Seminer / Müzik</dd>
-
-          <dt>Kontenjan</dt>
-          <dd>120</dd>
-        </dl>
-        
-        <p style="margin-top: 1rem;">Mezunlarla kariyer söyleşileri, canlı müzik performansları ve şirket stantları.</p>
-        <p style="margin-top: 1rem;"><a href="etkinlikler.html" style="color: var(--renk-ana); font-weight: bold;">← Listeye dön</a></p>
-      </div>
-    </section>
+    <!-- JavaScript detayları (afiş, künye, vs.) buraya basacak -->
+    <section id="detay" class="detay-grid"></section>
   </main>
 
   <footer>
