@@ -1,4 +1,4 @@
-Canlı Site: https://webteknolojiders1.vercel.app
+Canlı Site: https://sprintt5.vercel.app/
 
 Dosya Açıklamaları:
 - package.json: Proje adı, komutlar (dev, build) ve paket listesini tutar.
