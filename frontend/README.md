@@ -1,32 +1,33 @@
-# React + TypeScript + Vite
+# Kampüs Etkinlikleri - Sprint 6 ve Vize Teslimi
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Canlı Vercel Adresi
+- **Canlı Adres:** https://sprintt5.vercel.app/
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Kurulum ve Çalıştırma
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Derleme (Build):
+```bash
+npm run build
+```
+
+## Route Listesi (10 Adres / 10 Sayfa)
+| Adres | Sayfa Bileşeni | Açıklama |
+|---|---|---|
+| `/` | `HomePage` | Yaklaşan 2 etkinlik ve yönlendirme |
+| `/events` | `EventsPage` | Arama ve kategori filtrelemeli tüm etkinlikler |
+| `/events/:id` | `EventDetailPage` | Seçili etkinliğin afiş ve detay künyesi |
+| `/login` | `LoginPage` | Doğrulamalı giriş yapma sayfası |
+| `/register` | `RegisterPage` | Doğrulamalı kayıt olma sayfası |
+| `/forgot-password` | `ForgotPasswordPage` | Şifre sıfırlama bağlantısı gönderme |
+| `/admin` | `AdminPage` | Etkinlik tablosu, silme (onaylı) ve düzenleme |
+| `/admin/new` | `AddEventPage` | Yeni etkinlik ekleme formu |
+| `/admin/:id/edit` | `EditEventPage` | Etkinlik bilgilerini güncelleme formu |
+| `*` | `NotFoundPage` | 404 Sayfa bulunamadı |
+
+## Öğrenci Bilgileri
+- **Ad Soyad:** Ahmet Turhan Ertuğrul
+- **Öğrenci No:** 2416501029
