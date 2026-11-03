@@ -1,7 +1,7 @@
 # Kampüs Etkinlikleri - Sprint 6 ve Vize Teslimi
 
 ## Canlı Vercel Adresi
-- **Canlı Adres:** https://sprintt5.vercel.app/
+- **Canlı Adres:** https://ahmetturhanertugrul-frontend.vercel.app/
 
 ## Kurulum ve Çalıştırma
 ```bash
