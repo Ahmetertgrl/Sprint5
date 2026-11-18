@@ -1,4 +1,10 @@
+import dns from "node:dns";
 import mongoose from "mongoose";
+
+// DNS SRV çözümleme hatasını (EBADRESP) engellemek için güvenilir DNS sunucuları tanımlanır
+try {
+  dns.setServers(["8.8.8.8", "1.1.1.1"]);
+} catch {}
 
 export async function connectDatabase() {
   const uri = process.env.MONGODB_URI;
