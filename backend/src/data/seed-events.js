@@ -1,6 +1,5 @@
-export const events = [
+export const seedEvents = [
   {
-    id: "event-1",
     title: "Yapay Zeka ve Geleceğin Meslekleri Zirvesi",
     category: "Seminer",
     capacity: 120,
@@ -10,7 +9,6 @@ export const events = [
     description: "Yapay zeka alanındaki son gelişmelerin ve geleceğin kariyer fırsatlarının tartışılacağı kapsamlı seminer."
   },
   {
-    id: "event-2",
     title: "İleri Seviye React ve TypeScript Atölyesi",
     category: "Atölye",
     capacity: 25,
@@ -20,7 +18,6 @@ export const events = [
     description: "Modern web uygulamalarında React ve TypeScript ile ölçeklenebilir mimari geliştirme atölyesi."
   },
   {
-    id: "event-3",
     title: "Kariyer Yolculuğunda Açık Kaynak Söyleşisi",
     category: "Söyleşi",
     capacity: 60,
@@ -30,7 +27,6 @@ export const events = [
     description: "Açık kaynak projelere katkı sağlayarak yazılım dünyasında kariyer inşa etme üzerine keyifli bir söyleşi."
   },
   {
-    id: "event-4",
     title: "Siber Güvenlikte CTF ve Savunma Atölyesi",
     category: "Atölye",
     capacity: 35,
@@ -40,7 +36,6 @@ export const events = [
     description: "Temel sızma testleri ve savunma stratejilerinin uygulamalı olarak işleneceği CTF atölyesi."
   },
   {
-    id: "event-5",
     title: "Üniversiteler Arası Algoritma ve Kodlama Yarışması",
     category: "Yarışma",
     capacity: 100,
@@ -50,7 +45,6 @@ export const events = [
     description: "Veri yapıları ve algoritmik problem çözme yeteneklerinin yarışacağı ödüllü programlama yarışması."
   },
   {
-    id: "event-6",
     title: "Teknoloji Girişimciliği ve Yatırım Alma Süreçleri",
     category: "Söyleşi",
     capacity: 75,
